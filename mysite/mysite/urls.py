@@ -19,5 +19,5 @@ from website.views import webtest
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('webtemplate/',webtest)
+    path('webtest/',webtest)
 ]
