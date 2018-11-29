@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from website.view import webtest
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('website/')
+    path('webtest/',webtest)
 ]
